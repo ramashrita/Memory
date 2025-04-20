@@ -1,19 +1,19 @@
 // Define the word sets with 7 words each
 const wordSets = [
-    ["apple", "banana", "cherry", "date", "fig", "grape", "kiwi"],
-    ["orange", "papaya", "quince", "raspberry", "strawberry", "tangerine", "vanilla"],
-    ["avocado", "blueberry", "cantaloupe", "dragonfruit", "elderberry", "guava", "honeydew"],
-    ["lime", "melon", "nectar", "olive", "peach", "pear", "plum"],
-    ["coconut", "eggplant", "fennel", "grapefruit", "jalapeno", "kale", "leek"]
+    ["apple", "banana", "cherry", "date", "fig"],
+    ["orange", "papaya", "quince", "tangerine", "vanilla"],
+    ["avocado", "blueberry", "cantaloupe", "guava"],
+    ["lime", "melon", "nectar", "pear", "plum"],
+    ["coconut", "eggplant","jalapeno", "leek"]
 ];
 
 // Define distraction words with 7 words each
 const distractionWords = [
-    ["car", "house", "tree", "computer", "phone", "bottle", "shoe"],
-    ["dog", "cat", "fish", "bird", "hamster", "turtle", "rabbit"],
-    ["book", "pen", "pencil", "notebook", "paper", "folder", "stapler"],
-    ["shirt", "pants", "hat", "shoes", "belt", "jacket", "socks"],
-    ["coffee", "tea", "juice", "water", "soda", "milk", "wine"]
+    ["car", "house","phone", "bottle", "shoe"],
+    ["dog", "cat", "fish", "bird","rabbit"],
+    ["book", "pen", "pencil","folder", "stapler"],
+    ["shirt", "pants", "hat", "shoes", "belt"],
+    ["coffee","juice", "water", "soda", "wine"]
 ];
 
 // Game variables
