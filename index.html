@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Distortion Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <style>
+        /* Custom styles for the word set */
+        #word-set {
+            display: flex;
+            justify-content: center; /* Center the words horizontally */
+            align-items: center; /* Center the words vertically */
+            flex-wrap: wrap; /* Allow words to wrap to the next line if needed */
+            font-size: 1.5rem; /* Increase font size */
+            margin: 20px 0; /* Add margin for spacing */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-96">
+        <h1 class="text-2xl font-bold mb-4 text-center">Memory Distortion Game</h1>
+        <div id="game-container" class="hidden">
+            <div id="word-set" class="text-1xl mb-4 whitespace-nowrap"></div> 
+            <button id="next-button" class="bg-blue-500 text-white px-4 py-2 rounded">Next</button>
+        </div>
+        <div id="recall-container" class="hidden">
+            <h2 class="text-lg mb-2">Recall the words:</h2>
+            <input type="text" id="recall-input" class="border border-gray-300 p-2 w-full mb-4" placeholder="Type your words here (comma separated)">
+            <button id="submit-button" class="bg-green-500 text-white px-4 py-2 rounded">Submit</button>
+        </div>
+        <div id="result-container" class="hidden">
+            <h2 class="text-lg mb-2" id="result-text"></h2>
+            <button id="replay-button" class="bg-yellow-500 text-white px-4 py-2 rounded">Play Again</button>
+        </div>
+        <button id="start-button" class="bg-blue-500 text-white px-4 py-2 rounded mt-4">Start Game</button>
+    </div>
+</body>
+</html>
